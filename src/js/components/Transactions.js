@@ -5,7 +5,7 @@ import CompleteTransactions from "./CompleteTransactions";
 import axios from "axios";
 import moment from "moment";
 
-const HOST = "http://localhost";
+const HOST = "http://localhost:80";
 const url = HOST + `/api/all`;
 
 class Transactions extends Component {
